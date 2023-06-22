@@ -1,7 +1,7 @@
 @php
     $currentRouteName = Route::currentRouteName();
 @endphp
-<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+<nav class="navbar navbar-expand-md navbar-dark bg-danger">
     <div class="container">
         <a href="{{ route('home') }}" class="navbar-brand mb-0 h1"><i class="bi bi-apple fs-1"></i> Data Master</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
